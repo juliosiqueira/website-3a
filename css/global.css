@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+#slides {
+	margin:0;
+	padding:0;
+	width:435px;
+	height:220px;
+}
+
+.slides_container {
+	width:435px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+
+.slides_container div.slide {
+	width:435px;
+	height:220px;
+	display:block;
+}
+
+.pagination {
+	margin:0 auto 0;
+	width:100px;
+	text-align:center;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+	text-align:center;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+	text-align:center;
+}
